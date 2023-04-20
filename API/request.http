@@ -2,10 +2,9 @@ POST  http://localhost:4002/products
 Content-Type: application/json
 
 {
-    
-    "name": "Caneta Vermelha",
-    "price": 3
-   
+    "name": "Primeiro Ing",
+    "price": 5,
+    "id": 1
 }
 
 ###
