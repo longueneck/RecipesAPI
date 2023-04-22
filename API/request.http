@@ -18,7 +18,7 @@ GET http://localhost:4001/recipes
 
 ###
 
-GET http://localhost:4001/recipes/1
+GET http://localhost:4001/recipes/name/Bolo de Chocolate
 
 ###
 
