@@ -11,31 +11,34 @@ fs.readFile("recipes.json", "utf-8", (err, data) => {
   if (err) {
     console.log(err.message);
   } else {
-    products = JSON.parse(data);
+    recipes = JSON.parse(data); // Corrigir para recipes em vez de products
   }
 });
 
-//--------------------------------------------------------------------------------------------------------
-// COMECA OS METODOS
-
-//Pegar todos os elementos
+// Pegar todos os elementos
 app.get("/recipes", (request, response) => {
   return response.json(recipes);
 });
 
-//Pegar elementos pelo indice
+// Pegar elementos pelo indice
 app.get("/recipes/:id", (request, response) => {
   const { id } = request.params;
-  const recipe = recipes.find((product) => recipe.id == id); // Use '==' em vez de '===' para comparar string e número
+  const recipe = recipes.find((recipe) => recipe.id == id);
   return response.json(recipe);
 });
 
-//Pegar elementos pelo texto
-app.get("/products/:name", (request, response) => {
+// Pegar elementos pelo nome
+app.get("/recipes/name/:name", (request, response) => { // Renomear para evitar conflitos
   const { name } = request.params;
-  const product = products.filter((product) => product.name === name);
-  return response.json(product);
+  const recipe = recipes.filter((recipe) => recipe.name === name);
+  return response.json(recipe);
 });
 
+// Pegar elementos pelo nivel
+app.get("/recipes/nivel/:nivel", (request, response) => { // Renomear e corrigir comparação
+  const { nivel } = request.params;
+  const recipe = recipes.filter((recipe) => recipe.nivel === parseInt(nivel)); // Converter nivel para número
+  return response.json(recipe);
+});
 
-app.listen(4001, () => console.log("Servidor esta rodando na porta 4001"));
+app.listen(4001, () => console.log("Servidor está rodando na porta 4001"));

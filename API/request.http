@@ -3,7 +3,7 @@ GET http://localhost:4002/products
 
 ###
 
-GET http://localhost:4002/products/3
+GET http://localhost:4002/products/143
 
 ###
 
@@ -18,8 +18,8 @@ GET http://localhost:4001/recipes
 
 ###
 
-GET http://localhost:4002/recipes/3
+GET http://localhost:4001/recipes/1
 
 ###
 
-GET http://localhost:4002/recipes/molho+de+gorgonzola+ao+alho
+GET http://localhost:4001/recipes/hard
