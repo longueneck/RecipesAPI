@@ -1,15 +1,5 @@
 const express = require("express");
-const { randomUUID } = require("crypto");
 const fs = require("fs");
-
-
-function getID() {
-  let id = 0;
- return function(){
-  id++;
-  return id;
- };
-}
 
 const app = express();
 
@@ -25,43 +15,27 @@ fs.readFile("products.json", "utf-8", (err, data) => {
   }
 });
 
-app.post("/products", (request, response) => {
-  const { name, price, id } = request.body;
+//--------------------------------------------------------------------------------------------------------
+// COMECA OS METODOS
 
-  console.log(request.body);
-
-  const product = {
-    name,
-    price,
-    id : getID(),
-  };
-
-  products.push(product);
-
-  fs.writeFile("products.json", JSON.stringify(products), (err) => {
-    if (err) {
-      console.log(err);
-    } else {
-      console.log("Produto Inserido");
-    }
-  });
-
-  return response.json(product);
-});
-
+//Pegar todos os elementos
 app.get("/products", (request, response) => {
   return response.json(products);
 });
 
+
+//Pegar elementos pelo indice
 app.get("/products/:id", (request, response) => {
   const { id } = request.params;
-  const product = products.find((products) => product.id === id);
+  const product = products.find((product) => product.id == id); // Use '==' em vez de '===' para comparar string e número
   return response.json(product);
 });
 
-app.put("/products/:id", (request, response) => {
-  const { id } = request.params;
-  const { name, price } = request.body;
+app.get("/products/:name", (request, response) => {
+  const { name } = request.params;
+  const product = products.filter((product) => product.name === name);
+  return response.json(product);
 });
+
 
 app.listen(4002, () => console.log("Servidor esta rodando na porta 4002"));

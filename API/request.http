@@ -1,12 +1,9 @@
-POST  http://localhost:4002/products
-Content-Type: application/json
-
-{
-    "name": "Primeiro Ing",
-    "price": 5,
-    "id": 1
-}
+GET http://localhost:4002/products
 
 ###
 
-GET http://localhost:4002/products
+GET http://localhost:4002/products/3
+
+###
+
+GET http://localhost:4002/products/Acerola
