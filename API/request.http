@@ -1,3 +1,4 @@
+//REQUISICOES PARA RECEITAS
 GET http://localhost:4002/products
 
 ###
@@ -7,3 +8,18 @@ GET http://localhost:4002/products/3
 ###
 
 GET http://localhost:4002/products/Acerola
+
+//----------------------------------------------------------------------------
+//REQUISICOES PARA RECEITAS
+
+###
+//Retorna todos as receitas
+GET http://localhost:4001/recipes
+
+###
+
+GET http://localhost:4002/recipes/3
+
+###
+
+GET http://localhost:4002/recipes/molho+de+gorgonzola+ao+alho

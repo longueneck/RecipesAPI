@@ -4,7 +4,8 @@
   "description": "Primeira API",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "dev1": "nodemon recipes.js"
   },
   "author": "Kevin Longue",
   "license": "ISC",
