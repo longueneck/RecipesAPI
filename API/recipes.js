@@ -28,9 +28,9 @@ app.get("/recipes/:id", (request, response) => {
 });
 
 // Pegar elementos pelo nome
-app.get("/recipes/name/:name", (request, response) => { // Renomear para evitar conflitos
+app.get("/recipes/:name", (request, response) => { // Renomear para evitar conflitos
   const { name } = request.params;
-  const recipe = recipes.filter((recipe) => recipe.name === name);
+  const recipe = recipes.filter((recipe) => recipe.name == name);
   return response.json(recipe);
 });
 

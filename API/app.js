@@ -23,7 +23,6 @@ app.get("/products", (request, response) => {
   return response.json(products);
 });
 
-
 //Pegar elementos pelo indice
 app.get("/products/:id", (request, response) => {
   const { id } = request.params;
