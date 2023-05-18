@@ -3,11 +3,11 @@ GET http://localhost:4002/products
 
 ###
 
-GET http://localhost:4002/products/143
+GET http://localhost:4002/products/14
 
 ###
 
-GET http://localhost:4002/products/Acerola
+GET http://localhost:4002/products/Anis
 
 //----------------------------------------------------------------------------
 //REQUISICOES PARA RECEITAS
@@ -17,9 +17,6 @@ GET http://localhost:4002/products/Acerola
 GET http://localhost:4001/recipes
 
 ###
+GET http://localhost:4001/recipes/limao?ingredients=sal,açúcar,ovo
 
-GET http://localhost:4001/recipes/Tacos de Peixe
 
-###
-
-GET http://localhost:4001/recipes/hard
