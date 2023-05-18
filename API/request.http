@@ -17,6 +17,6 @@ GET http://localhost:4002/products/Anis
 GET http://localhost:4001/recipes
 
 ###
-GET http://localhost:4001/recipes/limao?ingredients=sal,açúcar,ovo
+GET http://localhost:4001/recipes/ingredients?ingredients=queijo
 
 

@@ -5,9 +5,140 @@
   "type": "dessert",
   "description": "Delicioso bolo de chocolate com cobertura.",
   "image": "bolo_chocolate.jpg",
-  "ingredients": "farinha de trigo, açúcar, cacau em pó, fermento em pó, bicarbonato de sódio, sal, leite, óleo vegetal, ovos, extrato de baunilha, água quente, cobertura de sua preferência",
+  "ingredients": "farinha de trigo, açúcar, cacau em pó, fermento em pó, bicarbonato de sódio, sal, leite, óleo vegetal, ovo, extrato de baunilha, água quente, cobertura de sua preferência",
   "prepareMode": "Em uma tigela grande, misture a farinha de trigo, o açúcar, o cacau em pó, o fermento em pó, o bicarbonato de sódio e o sal. Adicione o leite, o óleo vegetal, os ovos e o extrato de baunilha. Misture bem até obter uma massa homogênea. Acrescente a água quente e misture novamente. Despeje a massa em uma forma untada e leve ao forno preaquecido a 180°C por aproximadamente 30 minutos, ou até que um palito saia limpo ao ser inserido no centro do bolo. Deixe esfriar e cubra com a cobertura de sua preferência.",
   "timingToCook": "30 minutos",
   "prepareLevel": "Fácil"
-}
+},
+{
+  "id": 2,
+  "name": "Feijoada",
+  "type": "main course",
+  "description": "Deliciosa feijoada brasileira com diversos tipos de carne.",
+  "image": "feijoada.jpg",
+  "ingredients": "feijão preto, carne de porco (costela, pé, orelha, rabo), linguiça, bacon, carne seca, paio, cebola, alho, louro, sal",
+  "prepareMode": "Em uma panela de pressão, cozinhe o feijão preto com água por cerca de 30 minutos após pegar pressão. Em outra panela, ferva água e adicione as carnes de porco para retirar o excesso de sal. Em outra panela, refogue cebola, alho e louro. Acrescente as carnes já fervidas, o feijão cozido com o caldo e cozinhe por cerca de 2 horas, mexendo de vez em quando. Sirva com arroz branco, couve refogada, laranja e farofa.",
+  "timingToCook": "2 horas e 30 minutos",
+  "prepareLevel": "Moderado"
+},
+{
+  "id": 3,
+  "name": "Acarajé",
+  "type": "snack",
+  "description": "Delicioso quitute da culinária baiana recheado com vatapá, camarão e pimenta.",
+  "image": "acaraje.jpg",
+  "ingredients": "feijão fradinho, cebola, sal, camarão seco, azeite de dendê, pimenta malagueta, vatapá (farinha de mandioca, leite de coco, amendoim, camarão seco, azeite de dendê)",
+  "prepareMode": "Deixe o feijão fradinho de molho em água por cerca de 4 horas. Em seguida, escorra a água e bata o feijão no liquidificador com cebola e sal até obter uma massa homogênea. Aqueça o azeite de dendê em uma panela funda e frite pequenas porções da massa de feijão até que fiquem douradas e crocantes. Abra o acarajé ao meio e recheie com vatapá, camarão refogado e pimenta. Sirva quente.",
+  "timingToCook": "1 hora",
+  "prepareLevel": "Moderado"
+},
+{
+  "id": 4,
+  "name": "Brigadeiro",
+  "type": "dessert",
+  "description": "Delicioso doce brasileiro feito com chocolate e leite condensado.",
+  "image": "brigadeiro.jpg",
+  "ingredients": "leite condensado, chocolate em pó, manteiga, granulado de chocolate",
+  "prepareMode": "Em uma panela, misture o leite condensado, o chocolate em pó e a manteiga. Leve ao fogo baixo, mexendo sempre, até desgrudar do fundo da panela. Despeje a massa em um prato untado e deixe esfriar. Com as mãos untadas com manteiga, faça pequenas bolinhas com a massa e passe no granulado de chocolate. Sirva em forminhas de papel.",
+  "timingToCook": "20 minutos",
+  "prepareLevel": "Fácil"
+},
+{
+  "id": 5,
+  "name": "Moqueca Baiana",
+  "type": "main course",
+  "description": "Prato típico da Bahia feito com peixe, camarão, leite de coco e dendê.",
+  "image": "moqueca_baiana.jpg",
+  "ingredients": "peixe (robalo, badejo), camarão, cebola, tomate, pimentão, coentro, azeite de dendê, leite de coco, limão, sal",
+  "prepareMode": "Tempere o peixe e os camarões com limão e sal. Em uma panela, faça uma camada de cebola, tomate e pimentão. Coloque os pedaços de peixe e camarão por cima. Repita as camadas de cebola, tomate, pimentão e coentro. Regue com azeite de dendê e adicione o leite de coco. Tampe a panela e cozinhe em fogo baixo por cerca de 30 minutos, ou até que o peixe esteja cozido. Sirva com arroz branco e farofa.",
+  "timingToCook": "40 minutos",
+  "prepareLevel": "Moderado"
+},
+{
+  "id": 6,
+  "name": "Pão de Queijo",
+  "type": "snack",
+  "description": "Deliciosos pãezinhos de queijo tradicionais de Minas Gerais.",
+  "image": "pao_de_queijo.jpg",
+  "ingredients": "polvilho doce, polvilho azedo, queijo meia cura ralado, leite, óleo, ovo, sal",
+  "prepareMode": "Em uma panela, aqueça o leite, o óleo e o sal até ferver. Em uma tigela, misture o polvilho doce, o polvilho azedo e o queijo ralado. Despeje a mistura líquida quente sobre os ingredientes secos e misture bem. Adicione os ovos e continue mexendo até obter uma massa homogênea. Modele os pãezinhos e coloque em uma assadeira. Leve ao forno preaquecido a 180°C por aproximadamente 25 minutos, ou até que fiquem dourados. Sirva quente.",
+  "timingToCook": "40 minutos",
+  "prepareLevel": "Fácil"
+},
+{
+  "id": 7,
+  "name": "Coxinha",
+  "type": "snack",
+  "description": "Deliciosa coxinha de frango com massa crocante e recheio suculento.",
+  "image": "coxinha.jpg",
+  "ingredients": "frango cozido e desfiado, cebola, alho, caldo de frango, farinha de trigo, manteiga, leite, batata, ovo, farinha de rosca, óleo vegetal, sal",
+  "prepareMode": "Em uma panela, refogue a cebola e o alho em um pouco de manteiga. Adicione o frango desfiado e o caldo de frango e cozinhe até ficar bem temperado. Em outra panela, cozinhe a batata até ficar macia. Amasse a batata cozida e misture com farinha de trigo, manteiga, leite e sal, formando uma massa. Pegue porções da massa, abra na palma da mão e coloque um pouco do recheio de frango. Modele a coxinha e passe em farinha de trigo, ovo batido e farinha de rosca. Frite em óleo quente até ficarem douradas. Sirva quente.",
+  "timingToCook": "1 hora",
+  "prepareLevel": "Moderado"
+},
+{
+  "id": 8,
+  "name": "Bobó de Camarão",
+  "type": "main course",
+  "description": "Prato típico da culinária baiana feito com camarão e mandioca.",
+  "image": "bobo_de_camarao.jpg",
+  "ingredients": "camarão, mandioca, leite de coco, azeite de dendê, cebola, alho, pimentão, tomate, coentro, azeite, sal, pimenta",
+  "prepareMode": "Cozinhe a mandioca até ficar macia e reserve. Em uma panela, refogue a cebola, o alho, o pimentão e o tomate no azeite. Adicione os camarões e refogue até ficarem rosados. Em outra panela, faça um purê com a mandioca cozida, adicionando leite de coco e azeite de dendê. Junte o purê de mandioca ao refogado de camarão e misture bem. Tempere com sal, pimenta e coentro picado. Cozinhe por alguns minutos até obter um bobó cremoso. Sirva acompanhado de arroz branco.",
+  "timingToCook": "1 hora",
+  "prepareLevel": "Moderado"
+},
+{
+  "id": 9,
+  "name": "Moqueca de Peixe",
+  "type": "main course",
+  "description": "Prato típico da culinária baiana feito com peixe, leite de coco e dendê.",
+  "image": "moqueca_de_peixe.jpg",
+  "ingredients": "peixe (robalo, namorado ou outro de sua preferência), cebola, pimentão, tomate, coentro, alho, limão, azeite de dendê, leite de coco, sal, pimenta",
+  "prepareMode": "Tempere o peixe com suco de limão, alho, sal e pimenta. Em uma panela, faça uma camada de cebola, pimentão e tomate. Coloque uma camada de peixe por cima e repita as camadas até acabarem os ingredientes. Regue com leite de coco, azeite de dendê e coentro picado. Tampe a panela e cozinhe em fogo baixo por aproximadamente 30 minutos, ou até o peixe estar cozido e macio. Sirva acompanhado de arroz branco e pirão.",
+  "timingToCook": "40 minutos",
+  "prepareLevel": "Moderado"
+},
+{
+  "id": 10,
+  "name": "Espetinho de Carne",
+  "type": "main course",
+  "description": "Delicioso espetinho de carne temperado e grelhado.",
+  "image": "espetinho_carne.jpg",
+  "ingredients": "carne bovina (filé mignon, alcatra), cebola, pimentão, sal, pimenta, azeite de oliva",
+  "prepareMode": "Corte a carne em cubos médios e tempere com sal, pimenta e azeite de oliva. Monte os espetinhos, intercalando a carne, cebola e pimentão. Leve à grelha ou churrasqueira em fogo médio-alto e grelhe por aproximadamente 10-15 minutos, virando os espetinhos para que dourem por igual. Sirva quente.",
+  "timingToCook": "30 minutos",
+  "prepareLevel": "Fácil"
+},
+{
+  "id": 11,
+  "name": "Risoto de Frutos do Mar",
+  "type": "main course",
+  "description": "Delicioso risoto de frutos do mar com camarão, lula e mariscos.",
+  "image": "risoto_frutos_mar.jpg",
+  "ingredients": "arroz arbóreo, camarão, lula, mariscos, cebola, alho, vinho branco seco, caldo de peixe, manteiga, queijo parmesão, azeite, sal, pimenta",
+  "prepareMode": "Em uma panela, refogue a cebola e o alho no azeite. Adicione o arroz arbóreo e refogue por alguns minutos. Acrescente o vinho branco e deixe evaporar. Adicione o caldo de peixe aos poucos, mexendo sempre, até o arroz ficar al dente. Em outra panela, grelhe os frutos do mar no azeite. Adicione os frutos do mar ao risoto e misture bem. Desligue o fogo e adicione a manteiga e o queijo parmesão. Tempere com sal e pimenta a gosto. Sirva quente.",
+  "timingToCook": "40 minutos",
+  "prepareLevel": "Moderado"
+},
+{
+  "id": 12,
+  "name": "Pavê de Chocolate",
+  "type": "dessert",
+  "description": "Delicioso pavê de chocolate com biscoitos e creme.",
+  "image": "pave_chocolate.jpg",
+  "ingredients": "biscoitos de maisena, leite, chocolate em pó, amido de milho, açúcar, creme de leite, essência de baunilha",
+  "prepareMode": "Em uma panela, dissolva o amido de milho em um pouco de leite. Adicione o leite restante, o chocolate em pó e o açúcar. Leve ao fogo médio, mexendo sempre, até engrossar. Desligue o fogo e adicione o creme de leite e a essência de baunilha. Mexa bem até obter um creme homogêneo.\n\nEm um refratário, faça uma camada de biscoitos de maisena no fundo. Despeje uma parte do creme por cima dos biscoitos, cobrindo-os completamente. Repita as camadas alternando entre biscoitos e creme até acabarem os ingredientes, finalizando com uma camada de creme no topo.\n\nLeve o pavê à geladeira por pelo menos 4 horas para firmar. Antes de servir, você pode decorar com raspas de chocolate ou polvilhar cacau em pó por cima. Sirva gelado e aproveite essa deliciosa sobremesa!",
+  "timingToCook": "4 horas",
+  "prepareLevel": "Fácil"
+  }
+
+
+
+
+
+
+
 ]
+
+
+
