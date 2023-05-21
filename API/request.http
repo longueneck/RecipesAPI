@@ -14,9 +14,9 @@ GET http://localhost:4002/products/Anis
 
 ###
 //Retorna todos as receitas
-GET http://localhost:4001/recipes
+GET http://localhost:4002/recipes
 
 ###
-GET http://localhost:4001/recipes/ingredients?ingredients=queijo
+GET http://localhost:4002/recipes/ingredients?ingredients=chocolate,farinha de trigo,
 
 

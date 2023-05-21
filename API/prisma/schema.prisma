@@ -1,0 +1,44 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+  previewFeatures = ["fullTextSearch"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Recipe {
+  id           String       @id @default(uuid())
+  name         String
+  type         RecipeType
+  description  String
+  image        String
+  amount       String
+  amountResult Int
+  timingToCook Int
+  prepareLevel PrepareLevel
+  ingredients  Ingredient[]
+}
+
+enum RecipeType {
+  Meal
+  BreakFast
+  Snack
+}
+
+enum PrepareLevel {
+  Easy
+  Medium
+  Hard
+  VaryHard
+}
+
+model Ingredient {
+  id       String  @id @default(uuid())
+  name     String
+  recipes  Recipe[]
+}
