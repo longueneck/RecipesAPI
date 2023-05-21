@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    
     "name": "Bolo de Cenoura",
     "type": "Sobremesa",
     "description": "Um bolo fofinho e saboroso feito com cenoura e cobertura de chocolate.",
@@ -13,7 +13,6 @@
     "prepareLevel": "Médio"
   },
   {
-    "id": 2,
     "name": "Feijoada",
     "type": "Refeição",
     "description": "Um prato típico brasileiro feito com feijão preto, carnes defumadas e acompanhamentos.",
@@ -26,7 +25,6 @@
     "prepareLevel": "Médio"
   },  
   {
-    "id": 3,
     "name": "Pudim de Leite Condensado",
     "type": "Sobremesa",
     "description": "Uma sobremesa clássica brasileira feita com leite condensado, ovos e calda de caramelo.",
@@ -39,7 +37,6 @@
     "prepareLevel": "Fácil"
   },
   {
-    "id": 4,
     "name": "Coxinha",
     "type": "Lanche",
     "description": "Uma famosa iguaria brasileira feita com massa de batata recheada de frango e frita até ficar crocante.",
@@ -52,7 +49,6 @@
     "prepareLevel": "Médio"
   },
   {
-    "id": 5,
     "name": "Caipirinha",
     "type": "Bebida",
     "description": "Uma refrescante bebida brasileira feita com cachaça, limão, açúcar e gelo.",
@@ -65,7 +61,6 @@
     "prepareLevel": "Fácil"
   },
   {
-    "id": 6,
     "name": "Brigadeiro",
     "type": "Sobremesa",
     "description": "Um doce tradicional brasileiro feito com leite condensado, chocolate em pó e manteiga.",
@@ -78,7 +73,6 @@
     "prepareLevel": "Fácil"
   },
   {
-    "id": 7,
     "name": "Moqueca de Peixe",
     "type": "Refeição",
     "description": "Um prato típico da culinária baiana feito com peixe, leite de coco, dendê e temperos.",
@@ -91,7 +85,6 @@
     "prepareLevel": "Médio"
   },  
   {
-    "id": 8,
     "name": "Pão de Queijo",
     "type": "Café da Manhã",
     "description": "Um pãozinho de origem mineira feito com polvilho azedo, queijo e ovos.",
@@ -104,7 +97,6 @@
     "prepareLevel": "Fácil"
   },
   {
-    "id": 9,
     "name": "Açaí na tigela",
     "type": "Café da Manhã",
     "description": "Uma opção saudável e refrescante para o café da manhã, feita com açaí, frutas e granola.",
@@ -117,7 +109,6 @@
     "prepareLevel": "Fácil"
   },
   {
-    "id": 10,
     "name": "Bolo de Fubá",
     "type": "Sobremesa",
     "description": "Um bolo brasileiro feito com fubá, leite, açúcar e queijo ralado.",
@@ -130,7 +121,6 @@
     "prepareLevel": "Fácil"
   },  
   {
-    "id": 12,
     "name": "Bobó de Camarão",
     "type": "Refeição",
     "description": "Um prato tradicional da culinária baiana feito com camarão, mandioca, leite de coco e temperos.",

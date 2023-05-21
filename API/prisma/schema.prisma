@@ -26,8 +26,10 @@ model Recipe {
 
 enum RecipeType {
   Meal
+  Dessert
   BreakFast
   Snack
+  Drink
 }
 
 enum PrepareLevel {
