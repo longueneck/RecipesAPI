@@ -10,27 +10,22 @@ let ingredients = [];
 ingredients = JSON.parse(fs.readFileSync("products.json"));
 
 async function migrate() {
-//   for (let i = 0; i < recipes.length; i++) {
-//     const recipe = recipes[i];
-//     await prisma.recipe.create({
-//       data: {},
-//     });
-//   }
 
   for (let i = 0; i < ingredients.length; i++) {
     const ingredient = ingredients[i];
-    await prisma.ingredient.create({
-      data: {
+    const finded = await prisma.ingredient.findFirst({ where:{
         name: ingredient.name
-      }
-    });
+    } })
+
+    if (!finded) {
+      await prisma.ingredient.create({ data: ingredient })
+      console.log(`O ingrediente ${ingredient.name} foi adicionado`)
+    }else{
+        console.log(`O ingrediente ${ingredient.name} j;a existia e nao foi adicionado`)
+    }
   }
 }
-const finded = await prisma.ingredient.findOne({ where: ingredient.name })
 
-if (!finded) {
-  await prisma.ingredient.create({ data: ingredient.name })
-}
 
 function parseDifficulty(type) {
   switch (type) {
